@@ -18,7 +18,31 @@
 
 /*SUPPORTING*/
 
-.main .content {
+.supporting {
+  display: flex;
+}
+
+.supporting-main .content {
+  flex-direction: column;
+  width: 60%;
+}
+
+.supporting-main img {
+  width: 60%;
+}
+
+.supporting-topics .topic {
+  flex-direction: row;
+  /*align-items: flex-end;*/
+  /*align-content: flex-end;*/
+  width: 423px;
+  /*justify-content: flex-end;*/
+}
+.supporting-topics .topic img {
+  width: 35%;
+}
+
+/*.main .content {
   width: 60%;
 }
 
@@ -34,10 +58,9 @@
   height: 60%;
 }
 
-.supporting .topic img {
-  width: 35%;;
-  height: 35%;
-}
+.supporting .topics img {
+  width: 35%;
+}*/
 
 /*.supporting .topic {
   justify-content: flex-end;
