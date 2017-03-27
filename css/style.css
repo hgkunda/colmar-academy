@@ -25,10 +25,15 @@
   width: 35%;;
   height: 35%;
 }
+/*COURSES SECTION*/
 
-.courses {
-  /*display: flex;*/
-  /*margin: 32px;*/
+/*.courses {
+  display: flex;
+  justify-content: center;
+}*/
+
+.image-container {
+  overflow: hidden;
 }
 
 .courses-subjects {
@@ -38,20 +43,36 @@
   justify-content: center;
 }
 
-.subject img {
-  /*margin: 32px;*/
-  /*align-content: space-around;*/
+.subject {
+
 }
 
-.courses h1 {
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  margin: 32px;
+.subject .image-container img {
+  width: 35%;
 }
 
 .subject {
   justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 32px;
+}
+
+/*.courses h1 {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 32px;
+}*/
+
+.subject {
+  justify-content: center;
+}
+
+.thesis video {
+  width: 60%;
+  height: 60%;
 }
 
 
