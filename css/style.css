@@ -25,21 +25,37 @@
 .supporting-main .content {
   flex-direction: column;
   width: 60%;
+  background-color: pink;
 }
 
 .supporting-main img {
   width: 60%;
 }
 
-.supporting-topics .topic {
-  flex-direction: row;
+.supporting-topics .content {
+  /*flex-direction: column;*/
   /*align-items: flex-end;*/
   /*align-content: flex-end;*/
   width: 423px;
-  /*justify-content: flex-end;*/
+  background-color: lightgreen;
 }
-.supporting-topics .topic img {
+
+.supporting-topics .topic {
+  width: 423px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+  display: inline-flex;
+}
+.supporting-topics img {
   width: 35%;
+  background-color: teal;
+}
+
+.supporting-topics {
+  background-color: PeachPuff;
+  /*align-self: flex-end;*/
 }
 
 /*.main .content {
