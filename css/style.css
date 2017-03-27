@@ -1,13 +1,79 @@
-/**
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
 
-HEADER
+.banner {
+  display: flex;
+  align-content: center;
+  /*background-image: url("/colmar-academy/assets/images/banner.jpg");*/
+  margin: 32px 24px;
+  /*max-width: 60%;*/
+}
 
-header {}
+.banner img {
+  width: 60%;;
+  height: 60%;
+}
 
-logo {}
+.main img {
+  width: 60%;;
+  height: 60%;
+}
 
-nav {}
+.topic img {
+  width: 35%;;
+  height: 35%;
+}
 
+.courses {
+  /*display: flex;*/
+  /*margin: 32px;*/
+}
+
+.courses-subjects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.subject img {
+  /*margin: 32px;*/
+  /*align-content: space-around;*/
+}
+
+.courses h1 {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 32px;
+}
+
+.subject {
+  justify-content: center;
+}
+
+
+/*HEADER*/
+
+/*header {
+  display: flex;
+  justify-content: flex-start;
+}*/
+
+/*.logo {
+  display: inline;
+}
+
+nav div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}*/
+
+
+/*
 CLASSES
 
 container
@@ -16,4 +82,4 @@ subjects
 courses
 supporting
 thesis
-banner
+banner*/

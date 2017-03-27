@@ -3,107 +3,141 @@
   <head>
     <meta charset="utf-8">
     <title>Colmar Academy</title>
-    <link href="./css/reset.css" type="text/css" rel="stylesheet">
-    <link href="./css/style.css" type="style.css" rel="stylesheet">
+    <!-- <link href="./css/reset.css" type="text/css" rel="stylesheet"> -->
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
+
+<!-- HEADER -->
+
     <header>
-      <img src="./assets/images/ic-logo.svg">
-      <h3>COLMAR ACADEMY</h3>
-    <nav>
-       <ul>
-         <li>On Campus</li>
-         <li>Online</li>
-         <li>For Businesses</li>
-         <li>Sign In</li>
-       </ul>
-     </nav>
+      <div class="logo">
+        <img src="./assets/images/ic-logo.svg">
+        <h3>COLMAR ACADEMY</h3>
+      </div>
+      <div>
+      <nav>
+         <ul>
+           <li>On Campus</li>
+           <li>Online</li>
+           <li>For Businesses</li>
+           <li>Sign In</li>
+         </ul>
+       </nav>
+     </div>
    </header>
 
+<!-- BANNER -->
 
-    <!-- BANNER -->
-    <img src="./assets/images/banner.jpg">
-    <h1>Learn something new every day</h1>
-    <h2>Lorem ispum dolor sit amet, consectetur adipiscing elit.</h2>
-    <h3>Start here</h3>
-    <!-- /BANNER -->
+    <div class="banner">
+      <img src="./assets/images/banner.jpg">
+      <div class="banner-text">
+        <h1>Learn something new every day</h1>
+      <h2>Lorem ispum dolor sit amet, consectetur adipiscing elit.</h2>
+    </div>
+      <div class="button">Start here</div>
+    </div>
+
+<!-- SUPPORTING -->
+
+      <div class="supporting">
+        <div class="supporting main">
+          <img src="./assets/images/information-main.jpg">
+          <h1>It doesn't hurt to keep practicing</h1>
+          <p>"Curabitur vitae libero in ipsum porritor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget manga laoreet, efficitur dolor consequat, tristique ligua."</p>
+          <!-- special id -->
+          <p>Emanuel, Sr Strategist at Hiring.com</p>
+        </div>
+        <div class="supporting-topics">
+          <div class="topic">
+          <img src="./assets/images/information-orientation.jpg">
+          <h2>Orientation date</h2>
+          <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="topic">
+          <img src="./assets/images/information-campus.jpg"
+          <h2>Our campus</h2>
+          <p>Find which campus is close by you</p>
+          <a href="#">Read more</a>
+        </div>
+        <div class="topic">
+          <img src="./assets/images/information-guest-lecture.jpg">
+          <h2>Our guest lecture</h2>
+          <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+          <a href="#">Read more</a>
+        </div>
+      </div>
+    </div>
 
 
+<!-- COURSES -->
 
-    <!-- SUPPORTING -->
-      <!-- SUPPORTING PHOTO -->
-      <img src="./assets/images/information-main.jpg">
-      <h1>It doesn't hurt to keep practicing</h1>
-      <p>"Curabitur vitae libero in ipsum porritor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget manga laoreet, efficitur dolor consequat, tristique ligua."</p>
-      <!-- special id -->
-      <p>Emanuel, Sr Strategist at Hiring.com</p>
-
-      <!-- SUPPORTING TOPICS -->
-        <img src="./assets/images/information-orientation.jpg">
-        <h2>Orientation date</h2>
-        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-        <a href="#">Read more</a>
-        <img src="./assets/images/information-campus.jpg"
-        <h2>Our campus</h2>
-        <p>Find which campus is close by you</p>
-        <a href="#">Read more</a>
-        <img src="./assets/images/information-guest-lecture.jpg">
-        <h2>Our guest lecture</h2>
-        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-        <a href="#">Read more</a>
-     <!-- /SUPPORTING -->
-
-
-
-    <!-- COURSES -->
+    <div class="courses">
     <h1>Start learning</h1>
-      <!-- SUBJECT -->
-        <img src="./assets/images/course-software.jpg">
-        <h2>Software Engineering</h2>
-        <h3>COURSES</h3>
-        <p>Web Development, Mobile Development, iOT APIs</p>
-      <!-- SUBJECT -->
-        <img src="./assets/images/course-computer-art.jpg">
-        <h2>Computer art</h2>
-        <h3>COURSES</h3>
-        <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
-      <!-- SUBJECT -->
-        <img src="./assets/images/course-design.jpg">
-        <h2>Design</h2>
-        <h3>COURSES</h3>
-        <p>User Experience Design, User Research, Visual Design</p>
-      <!-- SUBJECT -->
-        <img src="./assets/images/course-data.jpg">
-        <h2>Data</h2>
-        <h3>COURSES</h3>
-        <p>Data Science, Big Data, SQL, Data Visualization</p>
-      <!-- SUBJECT -->
-        <img src="./assets/images/course-business.jpg">
-        <h2>Business</h2>
-        <h3>COURSES</h3>
-        <p>Product Development, Business Development, Startup</p>
-        <img src="./assets/images/course-marketing.jpg">
-        <h2>Marketing</h2>
-        <h3>COURSES</h3>
-        <p>Anayltics, Content Marketing, Mobile Marketing</p>
-    <!-- /CLASSES -->
+      <div class="courses-subjects">
+        <div class="subject">
+          <img src="./assets/images/course-software.jpg">
+          <h2>Software Engineering</h2>
+          <h3>COURSES</h3>
+          <p>Web Development, Mobile Development, iOT APIs</p>
+        </div>
+        <div class="subject">
+          <img src="./assets/images/course-computer-art.jpg">
+          <h2>Computer art</h2>
+          <h3>COURSES</h3>
+          <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+        </div>
+        <div class="subject">
+          <img src="./assets/images/course-design.jpg">
+          <h2>Design</h2>
+          <h3>COURSES</h3>
+          <p>User Experience Design, User Research, Visual Design</p>
+        </div>
+        <div class="subject">
+          <img src="./assets/images/course-data.jpg">
+          <h2>Data</h2>
+          <h3>COURSES</h3>
+          <p>Data Science, Big Data, SQL, Data Visualization</p>
+        </div>
+        <div class="subject">
+          <img src="./assets/images/course-business.jpg">
+          <h2>Business</h2>
+          <h3>COURSES</h3>
+          <p>Product Development, Business Development, Startup</p>
+        </div>
+        <div class="subject">
+          <img src="./assets/images/course-marketing.jpg">
+          <h2>Marketing</h2>
+          <h3>COURSES</h3>
+          <p>Anayltics, Content Marketing, Mobile Marketing</p>
+        </div>
+      </div>
+    </div>
 
 
 
     <!-- THESIS -->
+    <div class="thesis">
     <h1>Thesis exhibit</h1>
-      <!-- THESIS VIDEO -->
+      <div class="thesis main">
         <video src="./assets/videos/thesis.mp4" type="video/mp4" width="60%" height="60%" controls></video>
         <h2>Reimagine urban</h2>
         <p>"Curabitur vitae libero in ipsum porttutor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget manga laoreet, efficitur dolor consequat, tristique ligua."</p>
-
-      <!-- THESIS TOPICS -->
+      </div>
+      <div class="thesis-topics">
+        <div class="topic">
         <img src="./assets/images/thesis-fisma.jpg">
         <h2>Fisma Design and</h2>
         <p>Designer showcase of new prototype product</p>
+      </div>
+      <div class="topic">
         <img src="./assets/images/thesis-now-and-then.jpg">
         <h2>Now and then</h2>
         <p>Research study about New York</p>
+      </div>
+    </div>
+  </div>
      <!-- /THESIS -->
 
 
