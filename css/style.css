@@ -44,18 +44,18 @@
 }
 
 .subject {
-
-}
-
-.subject .image-container img {
-  width: 35%;
-}
-
-.subject {
+  width: 400px;
   justify-content: center;
   align-content: center;
   align-items: center;
   text-align: center;
+}
+
+.subject .image-container img {
+  /*width: 35%;*/
+}
+
+.content  {
   margin: 32px;
 }
 
