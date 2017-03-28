@@ -9,7 +9,6 @@
   padding-right: 24px;
   padding-left: 24px;
   height: 64px;
-  background-color: lightseagreen;
 }
 
 .logo {
@@ -31,8 +30,9 @@ li {
   display: flex;
   align-content: center;
   /*background-image: url("/colmar-academy/assets/images/banner.jpg");*/
-  margin: 32px 40px 32px 24px;
+  padding: 32px 40px 32px 24px;
   /*max-width: 60%;*/
+  background-color: #e0dede;
 }
 
 .banner .content {
@@ -54,7 +54,7 @@ li {
 
 .supporting {
   display: flex;
-  background-color: mediumseagreen;
+  /*background-color: mediumseagreen;*/
 }
 
 .supporting-main {
@@ -65,7 +65,7 @@ li {
 .supporting-main .content {
   flex-direction: column;
   /*width: 60%;*/
-  background-color: pink;
+  /*background-color: pink;*/
   /*position: absolute;*/
 }
 
@@ -79,7 +79,7 @@ li {
   align-items: flex-end;
   align-content: flex-end;
   width: 423px;
-  background-color: lightgreen;
+  /*background-color: lightgreen;*/
 }
 
 .supporting-topics .topic {
@@ -88,11 +88,18 @@ li {
   align-content: center;
   align-items: center;
   justify-content: center;
-  background-color: beige;
+  /*background-color: beige;*/
   display: inline-flex;
   /*flex-direction: column;*/
   /*width: 30%;*/
+  border: solid 1px #e0dede;
 }
+
+.guest {
+  background-color: #e0dede;
+  z-index: 5;
+}
+
 .supporting-topics img {
   width: 35%;
   /*background-color: teal;*/
@@ -100,7 +107,7 @@ li {
 }
 
 .supporting-topics {
-  background-color: PeachPuff;
+  /*background-color: PeachPuff;*/
   flex-direction: column;
   justify-content: center;
   /*width: 423px;*/
@@ -117,7 +124,7 @@ li {
 /*COURSES SECTION*/
 
 .courses {
-  background-color: lightblue;
+  background-color: #e0dede;
 }
 
 .courses h1 {
