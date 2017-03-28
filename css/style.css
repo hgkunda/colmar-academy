@@ -18,19 +18,25 @@
 /*SUPPORTING*/
 
 .supporting {
-  display: inline-flex;
+  display: flex;
   background-color: mediumseagreen;
 }
 
-.supporting-banner .content {
-  flex-direction: column;
+.supporting-main {
   width: 60%;
+  margin: 32px 24px;
+}
+
+.supporting-main .content {
+  flex-direction: column;
+  /*width: 60%;*/
   background-color: pink;
   /*position: absolute;*/
 }
 
-.supporting-banner img {
-  width: 60%;
+.supporting-main img {
+  width: 790px;
+  /*margin: 32px 24px;*/
 }
 
 .supporting-topics .content {
@@ -42,9 +48,10 @@
 }
 
 .supporting-topics .topic {
-  width: 423px;
-  /*align-content: center;*/
-  align-items: flex-end;
+  /*width: 423px;*/
+  /*margin-left: 16px;*/
+  align-content: center;
+  align-items: center;
   justify-content: center;
   background-color: beige;
   display: inline-flex;
@@ -53,18 +60,20 @@
 }
 .supporting-topics img {
   width: 35%;
-  background-color: teal;
+  /*background-color: teal;*/
+  margin: 16px;
 }
 
 .supporting-topics {
   background-color: PeachPuff;
   flex-direction: column;
-  /*justify-content: flex-start;*/
+  justify-content: center;
+  /*width: 423px;*/
   /*align-content: flex-start;*/
   /*align-items: flex-start;*/
-  width: 30%;
+  /*width: 30%;*/
   display: flex;
-  /*margin-left: 70%;*/
+  /*margin-left: 16px;*/
   /*z-index: 5;*/
   /*position: relative;*/
 }
