@@ -22,14 +22,14 @@
   background-color: mediumseagreen;
 }
 
-.supporting-main .content {
+.supporting-banner .content {
   flex-direction: column;
   width: 60%;
   background-color: pink;
   /*position: absolute;*/
 }
 
-.supporting-main img {
+.supporting-banner img {
   width: 60%;
 }
 
