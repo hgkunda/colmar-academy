@@ -36,6 +36,7 @@ li {
 }
 
 .banner .content {
+  padding-left: 40px;
   align-content: center;
   align-items: center;
   justify-content: center;
@@ -211,4 +212,12 @@ li {
 .thesis-topics img {
   width: 35%;
   margin: 16px;
+}
+
+.bottombar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 64px;
 }
