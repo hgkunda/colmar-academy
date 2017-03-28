@@ -78,29 +78,7 @@
   /*position: relative;*/
 }
 
-/*.main .content {
-  width: 60%;
-}
 
-.supporting {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.supporting .main img {
-  width: 60%;
-  height: 60%;
-}
-
-.supporting .topics img {
-  width: 35%;
-}*/
-
-/*.supporting .topic {
-  justify-content: flex-end;
-}*/
 /*COURSES SECTION*/
 
 .courses {
@@ -147,12 +125,60 @@
 }
 
 
+/*THESIS SECTION*/
 
+.thesis {
+  display: flex;
+}
+.thesis-title {
+  text-align: center;
+  margin-top: 32px;
+  display: inline;
+}
+
+.thesis-main {
+  flex-direction: column;
+  margin: 32px 16px 24px 24px;
+  width: 60%;
+}
+
+/*.thesis-main .content {
+  width: 60%;
+}*/
 
 .thesis video {
-  width: 60%;
-  height: 60%;
+  width: 790px;
 }
+
+.thesis-topics {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 32px;
+}
+
+.thesis-topics .content {
+  flex-direction: column;
+  align-items: flex-end;
+  align-content: flex-end;
+  width: 423px;
+  height: 168px;
+}
+
+.thesis-topics .topic {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+}
+
+.thesis-topics img {
+  width: 35%;
+  margin: 16px;
+}
+
 
 
 /*HEADER*/
