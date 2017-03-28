@@ -1,13 +1,47 @@
-.container {
-  margin: 0 auto;
+/*HEADER*/
+
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding-right: 24px;
+  padding-left: 24px;
+  height: 64px;
+  background-color: lightseagreen;
 }
+
+.logo {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-left: 16px;
+}
+
+/*BANNER*/
 
 .banner {
   display: flex;
   align-content: center;
   /*background-image: url("/colmar-academy/assets/images/banner.jpg");*/
-  margin: 32px 24px;
+  margin: 32px 40px 32px 24px;
   /*max-width: 60%;*/
+}
+
+.banner .content {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 .banner img {
@@ -178,34 +212,3 @@
   width: 35%;
   margin: 16px;
 }
-
-
-
-/*HEADER*/
-
-/*header {
-  display: flex;
-  justify-content: flex-start;
-}*/
-
-/*.logo {
-  display: inline;
-}
-
-nav div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}*/
-
-
-/*
-CLASSES
-
-container
-topics
-subjects
-courses
-supporting
-thesis
-banner*/
