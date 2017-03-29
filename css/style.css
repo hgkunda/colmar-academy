@@ -1,5 +1,16 @@
-/*HEADER*/
+h1,
+h2,
+h3 {
+  font-family: "Palanquin", sans-serif;
+}
 
+p,
+a {
+  font-family: "Roboto", sans-serif;
+}
+
+
+/*HEADER*/
 
 .topbar {
   display: flex;
@@ -82,7 +93,7 @@ li {
   /*background-color: lightgreen;*/
 }
 
-.supporting-topics .topic {
+.topic {
   /*width: 423px;*/
   /*margin-left: 16px;*/
   align-content: center;
@@ -210,10 +221,7 @@ li {
 }
 
 .thesis-topics .topic {
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  display: inline-flex;
+  border: none;
 }
 
 .thesis-topics img {
