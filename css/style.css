@@ -298,10 +298,12 @@ li {
   }
   .supporting-main {
     display: none;
+    /*margin: 0 auto;*/
   }
   .supporting-topics {
     display: flex;
     flex-wrap: wrap;
+    /*margin: 0;*/
   }
   .courses img,
   .courses p,
@@ -321,7 +323,8 @@ li {
   .thesis-topics {
     display: none;
   }
-  .thesis {
-    max-width: 700px;
+  .thesis video {
+    /*max-width: 700px;*/
+    margin: 0;
   }
 }
