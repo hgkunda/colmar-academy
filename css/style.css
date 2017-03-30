@@ -28,6 +28,10 @@ a {
   display: flex;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 ul {
   display: flex;
   list-style: none;
@@ -263,4 +267,61 @@ li {
   padding-left: 24px;
   padding-right: 24px;
   height: 64px;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 700px) {
+  .topbar {
+    display: none;
+    visibility: hidden;
+  }
+  .mobile-nav {
+    display: flex;
+    /*align-content: space-around;*/
+    justify-content: space-around;
+    /*align-items: center;*/
+  }
+  .banner img {
+    display: none;
+  }
+  .banner-fill {
+    background-color: gray;
+    color: gray;
+    width: 100%;
+    height: 100%;
+  }
+  .banner {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .supporting-main {
+    display: none;
+  }
+  .supporting-topics {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .courses img,
+  .courses p,
+  .courses h3 {
+    display: none;
+  }
+  .courses .subject {
+    background-color: #e0dede;
+    margin: 8px;
+  }
+  .courses {
+    background-color: white;
+  }
+  .guest {
+    background-color: white;
+  }
+  .thesis-topics {
+    display: none;
+  }
+  .thesis {
+    max-width: 700px;
+  }
 }
