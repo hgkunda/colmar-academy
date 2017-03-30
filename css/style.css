@@ -2,11 +2,13 @@ h1,
 h2,
 h3 {
   font-family: "Palanquin", sans-serif;
+  margin: 0 auto;
 }
 
 p,
 a {
   font-family: "Roboto", sans-serif;
+  /*margin: 0 auto;*/
 }
 
 
@@ -51,9 +53,29 @@ li {
   align-content: center;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   display: inline-flex;
   flex-direction: column;
+  /*width: 423px;*/
+}
+
+.button {
+  background-color: #373b42;
+  color: white;
+  text-align: center;
+  padding: 8px 200px;
+  font-size: 20px;
+  justify-content: space-around;
+  margin-top: 20px
+}
+
+.banner h1 {
+  font-size: 50px;
+  /*margin: 0 auto;*/
+}
+
+.banner p {
+  /*margin-top: 200px;*/
 }
 
 .banner img {
@@ -71,6 +93,11 @@ li {
 .supporting-main {
   width: 60%;
   margin: 32px 24px;
+}
+
+.supporting-main h1 {
+  padding-top: 32px;
+  padding-bottom: 24px;
 }
 
 .supporting-main .content {
@@ -173,8 +200,12 @@ li {
   background-color: white;
 }
 
-.subject .image-container img {
-  padding-bottom:
+.courses h3 {
+  padding: 8px 0px;
+}
+
+.subject img {
+  /*width: 220px;*/
 }
 
 
@@ -195,10 +226,6 @@ li {
   width: 60%;
 }
 
-/*.thesis-main .content {
-  width: 60%;
-}*/
-
 .thesis video {
   width: 790px;
 }
@@ -218,6 +245,7 @@ li {
   align-content: flex-end;
   width: 423px;
   height: 168px;
+  justify-content: space-between;
 }
 
 .thesis-topics .topic {
