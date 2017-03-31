@@ -258,6 +258,10 @@ li {
 
 /*THESIS SECTION*/
 
+.thesis-thesis {
+  padding-top: 32px;
+}
+
 .thesis {
   display: flex;
   /*margin-top: 32px;*/
@@ -390,9 +394,6 @@ li {
     border-top: solid 2px #e0dede;
     border-bottom: solid 2px #e0dede;
   }
-  /*.mobile-nav ul {
-    justify-content: center;
-  }*/
   .guest {
     background-color: white;
   }
@@ -416,7 +417,7 @@ li {
     padding-top: 16px;
     padding-bottom: 16px;
   }
-  .bottombar li {
+  .bottombar ul {
     display: none;
   }
 }
