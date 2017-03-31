@@ -92,7 +92,7 @@ li {
 
 .supporting {
   display: flex;
-  /*background-color: mediumseagreen;*/
+  padding-bottom: 32px;
 }
 
 .supporting-main {
@@ -105,11 +105,13 @@ li {
   padding-bottom: 24px;
 }
 
+#quote {
+  padding-top: 32px;
+}
+
 .supporting-main .content {
   flex-direction: column;
-  /*width: 60%;*/
-  /*background-color: pink;*/
-  /*position: absolute;*/
+  justify-content: space-between;
 }
 
 .main img {
@@ -145,6 +147,7 @@ li {
 .guest {
   background-color: #e0dede;
   z-index: 5;
+  /*margin-bottom: 32px;*/
 }
 
 .supporting-topics img {
@@ -157,10 +160,7 @@ li {
   /*background-color: PeachPuff;*/
   flex-direction: column;
   justify-content: center;
-  /*width: 423px;*/
-  /*align-content: flex-start;*/
-  /*align-items: flex-start;*/
-  /*width: 30%;*/
+  border-left: solid 1px #e0dede;
   display: flex;
   /*margin-left: 16px;*/
   /*z-index: 5;*/
@@ -172,11 +172,13 @@ li {
 
 .courses {
   background-color: #e0dede;
+  margin-top: 32px;
 }
 
 .courses h1 {
   text-align: center;
   padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .subject .content {
@@ -196,17 +198,22 @@ li {
   flex-direction: row;
   justify-content: center;
   padding-bottom: 32px;
+  /*width: 50%;*/
 }
 
 .subject {
   width: 400px;
   /*height: 220px;*/
-  justify-content: center;
+  justify-content: space-around;
   align-content: center;
   align-items: center;
   text-align: left;
   margin: 16px;
   background-color: white;
+}
+
+.subject .content {
+  /*height: 60%;*/
 }
 
 .courses h3 {
@@ -222,9 +229,11 @@ li {
 
 .thesis {
   display: flex;
+  /*margin-top: 32px;*/
 }
 .thesis-title {
   text-align: center;
+  padding-top: 32px;
   margin-top: 32px;
   display: inline;
 }
@@ -257,7 +266,6 @@ li {
   align-items: flex-end;
   align-content: flex-end;
   width: 423px;
-  height: 168px;
   justify-content: space-between;
 }
 
@@ -271,6 +279,7 @@ li {
 }
 
 .bottombar {
+  border-top: 2px solid #e0dede;
   display: flex;
   justify-content: space-between;
   padding-left: 24px;
@@ -288,9 +297,9 @@ li {
   }
   .mobile-nav {
     display: flex;
-    /*align-content: space-around;*/
-    justify-content: space-around;
-    /*align-items: center;*/
+    align-content: center;
+    /*justify-content: space-around;*/
+    align-items: center;
   }
   /*.banner img {
     display: none;
@@ -340,8 +349,12 @@ li {
   }
   .thesis-main {
     width: 100%;
+    height: 100
   }
-  /*body {
-    max-width: 400px;
-  }*/
+  .bottombar {
+    justify-content: center;
+  }
+  .bottombar li {
+    display: none;
+  }
 }
