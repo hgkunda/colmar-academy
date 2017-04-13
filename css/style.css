@@ -31,7 +31,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-content: center;
   padding-right: 24px;
   padding-left: 24px;
   height: 64px;
@@ -58,10 +57,7 @@ li {
 
 .banner {
   display: flex;
-  align-content: center;
-  /*background-image: url("/colmar-academy/assets/images/banner.jpg");*/
   padding: 32px 40px 32px 24px;
-  /*max-width: 60%;*/
   background-color: #e0dede;
 }
 
@@ -146,6 +142,10 @@ li {
   width: 100%;
 }
 
+.mobile-img {
+  display: none;
+}
+
 .supporting-topics .content {
   flex-direction: column;
   align-items: flex-end;
@@ -166,7 +166,7 @@ li {
   border: solid 1px #e0dede;
 }
 
-.guest {
+.gray {
   background-color: #e0dede;
   z-index: 5;
   /*margin-bottom: 32px;*/
@@ -346,20 +346,18 @@ li {
   }
   .mobile-nav {
     display: flex;
-    align-content: center;
     justify-content: space-around;
     align-items: center;
     height: 64px;
   }
-  /*.banner img {
-    display: none;
-  }*/
 
   .banner {
     flex-wrap: wrap;
     flex-direction: column;
-    /*min-width: 335px;*/
-    /*padding-bottom: 32px;*/
+    padding: 0px 16px;
+  }
+  .banner .content {
+    padding: 0px;
   }
   .button {
     background-color: #616263;
@@ -373,24 +371,29 @@ li {
     display: flex;
     flex-wrap: wrap;
     padding: 16px 16px 32px 16px;
-    /*width: 100%;*/
+    max-width: 500px;
   }
-  .topic {
+  .topic .content {
     border: none;
     flex-direction: column;
     padding-bottom: 16px;
+    /*max-width: 500px;*/
+  }
+  .mobile-img {
+    display: flex;
+    justify-content: center;
+    padding: 16px 16px 32px 16px;
+    overflow: hidden;
     width: 100%;
   }
-  .supporting-topics {
-    /*width: 100%;*/
-    border: none;
+  .topic {
     flex-direction: column;
-    /*justify-content: space-between;*/
+    border: none;
+    /*margin: 16px 16px 32px 16px;*/
   }
-  .topic img {
-    /*max-height: 35%;
-    width: 100%;*/
-    overflow: hidden;
+  .desktop-img {
+    display: none;
+    width: 100%;
   }
   h2 {
     font-size: 24px;
@@ -423,31 +426,32 @@ li {
     background-color: white;
     border-top: solid 2px #e0dede;
     border-bottom: solid 2px #e0dede;
-    padding: 32px 16px;
+    margin: 32px 16px;
   }
-  .guest {
+  .gray {
     background-color: white;
     padding-bottom: 0;
   }
-  .thesis-topics {
+  .thesis-topics,
+  .thesis .content {
     display: none;
   }
   .supporting-topics {
     min-width: 100%;
+    border-left: none;
+    padding: 16px 16px 32px 16px;
   }
   .thesis-main {
     width: 100%;
-    height: 100
+    height: 100%;
+    padding: 0px;
+    margin: 24px 0px 32px 0px;
   }
   .bottombar {
-    justify-content: center;
-    padding-top: 24px;
-    /*font-size: 14px;*/
-  }
-  .bottombar p {
     font-size: 14px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    /*padding-top: 16px;*/
+    /*padding-bottom: 16px;*/
+    border-top: none;
   }
   .bottombar ul {
     display: none;
